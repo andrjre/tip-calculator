@@ -6,6 +6,9 @@ let tipTotal = document.getElementById("tipTotal")
 
 
 submit.onclick = function(){
-    result.textContent = Math.floor(billTotal.value * 1.2)
-    tipTotal.textContent = Math.floor(((billTotal.value * 1.2) - billTotal.value))
+    result.textContent = "In total you pay " + (billTotal.value * 1.2)
+    tipTotal.textContent ="The server recieves " +  (((billTotal.value * 1.2) - billTotal.value))
 }
+
+// find out how to set to 2 decimal places
+// implement people divider 
