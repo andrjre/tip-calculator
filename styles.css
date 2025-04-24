@@ -43,7 +43,7 @@ h1{
     background-color: #352f44;
 }
 
-#tipAmount{
+#billTotal{
     width:800px;
     height:200px;
     border-radius: 300px;
@@ -52,6 +52,6 @@ h1{
     border-style: none;
 }
 
-#tipAmount:active{
+#billTotal:active{
     border-style:none;
 }
