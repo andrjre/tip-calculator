@@ -4,8 +4,6 @@ let result = document.getElementById("result")
 let tipTotal = document.getElementById("tipTotal")
 
 submit.onclick = function(){
-    
-    
     result.textContent = "In total you pay " + "£" + Math.round(billTotal.value * 1.2)
     tipTotal.textContent ="The server recieves " +  "£" + ((Math.round(billTotal.value * 1.2) - billTotal.value))
     
